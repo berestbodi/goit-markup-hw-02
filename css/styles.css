@@ -14,41 +14,42 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: var(--navy-blue);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
-h1 {
+.motto-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
 
-h2 {
+.team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
   color: var(--navy-blue);
 }
 
-h3 {
+.superiority-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-p {
+.paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 a {
@@ -61,12 +62,13 @@ ul {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #4d5ae5;
 }
 
 .logo span {
@@ -75,7 +77,7 @@ ul {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #2e2f42;
 }
 
 nav a {
@@ -86,7 +88,8 @@ nav a {
   color: var(--navy-blue);
 }
 
-address a {
+.contact a {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -96,9 +99,9 @@ address a {
 
 nav a:hover,
 nav a:focus,
-address a:hover,
-address a:focus {
-  color: #4d5ae5;
+.contact a:hover,
+.contact a:focus {
+  color: #404bbf;
 }
 
 .motto {
@@ -106,7 +109,8 @@ address a:focus {
   background: var(--navy-blue);
 }
 
-.motto button {
+.motto .main-button {
+  font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -119,9 +123,9 @@ address a:focus {
   cursor: pointer;
 }
 
-.motto button:hover,
-.motto button:focus {
-  background-color: #4d5ae5;
+.motto .main-button:hover,
+.motto .main-button:focus {
+  background-color: #404bbf;
 }
 
 .motto button:active {
@@ -134,6 +138,7 @@ address a:focus {
 
 .team {
   text-align: center;
+  background-color: #f4f4fd;
 }
 
 .portfolio {
@@ -145,9 +150,13 @@ footer {
   text-align: left;
 }
 
-footer p {
+.logo .footer-span {
+  color: #f4f4fd;
+}
+
+.footer-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--cloud);
+  color: #f4f4fd;
 }
