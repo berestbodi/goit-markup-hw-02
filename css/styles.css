@@ -35,7 +35,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .superiority-title {
@@ -135,6 +135,10 @@ nav a:focus,
 .team {
   text-align: center;
   background-color: #f4f4fd;
+}
+
+.team .team-list {
+  background-color: #ffffff;
 }
 
 .portfolio .portfoliolist {
