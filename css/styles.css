@@ -1,25 +1,30 @@
-:root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
-  --dairy: #fcfcfc;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 
-.motto-title {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.paragraph,
+.footer-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-paragraph {
+  color: #f4f4fd;
+}
+
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -38,28 +43,12 @@ body {
   color: #2e2f42;
 }
 
-.superiority-title {
+.benefits-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
 }
 
 .logo {
@@ -73,19 +62,22 @@ ul {
 }
 
 .logo span {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
+}
+
+.logo .footer-span {
+  color: #f4f4fd;
+}
+
+nav .nav-link,
+.contact .contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 nav .nav-link {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -95,10 +87,7 @@ nav .nav-link {
 
 .contact .contact-link {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 nav a:hover,
@@ -108,28 +97,22 @@ nav a:focus,
   color: #404bbf;
 }
 
-.motto {
+.hero {
   text-align: center;
-  background: var(--navy-blue);
+  background: #2e2f42;
 }
 
-.motto .main-button {
-  font-family: "Roboto", sans-serif;
-  background: var(--iris);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+.hero .hero-button {
+  font: 500 16px/1.5 "Roboto", sans-serif;
   letter-spacing: 0.04em;
-  color: var(--white);
+  background: #4d5ae5;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.motto .main-button:hover,
-.motto .main-button:focus {
-  background-color: #404bbf;
-}
-
-.motto button:active {
+.hero .hero-button:hover,
+.hero .hero-button:focus,
+.hero button:active {
   background-color: #404bbf;
 }
 
@@ -137,25 +120,11 @@ nav a:focus,
   background-color: #f4f4fd;
 }
 
-.team .team-list {
-  background-color: #ffffff;
-}
-
+.team .team-list,
 .portfolio .portfoliolist {
   background-color: #ffffff;
 }
 
 footer {
-  background: var(--navy-blue);
-}
-
-.logo .footer-span {
-  color: #f4f4fd;
-}
-
-.footer-paragraph {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  background: #2e2f42;
 }
